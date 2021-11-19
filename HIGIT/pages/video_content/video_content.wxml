@@ -1,0 +1,8 @@
+<Hd/>
+<view>文章ID：{{vedio}}</view>
+<view class="content">
+  <view class="title" wx:for="{{datalist1}}">{{item.title}}</view>
+  <view class="line"></view>
+  <view class="content" wx:for="{{datalist1}}">{{item.content}} </view>
+</view>
+

@@ -1,0 +1,2 @@
+.content .title{font-size: 80rpx;font-family:"HARLOWSI"}
+.content .line{width:500rpx; height: 10rpx;background: black;margin-left: 10rpx 0 20rpx;}

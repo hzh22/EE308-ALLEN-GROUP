@@ -1,0 +1,48 @@
+{
+    "pages": [
+  
+        "pages/index/index",
+        "pages/logs/logs" ,
+        "pages/video/video",
+        "pages/article/article",
+        "pages/intro/intro",
+        "pages/appreciate/appreciate",
+        "pages/favor/favor",
+        "pages/article_content/article_content",
+        "pages/video_content/video_content",
+        "pages/setting/setting"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "HiGit",
+        "navigationBarTextStyle": "black"
+    },
+
+    "tabBar":{
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text":"首页",
+                "iconPath": "/image/home.png",
+                "selectedIconPath": "/image/home_fill.png"
+            },
+            {
+                "pagePath": "pages/favor/favor",
+                "text": "收藏榜",
+                "iconPath": "/image/favor.png",
+                "selectedIconPath": "/image/favor_fill.png"
+            },
+            {
+                "pagePath": "pages/appreciate/appreciate",
+                "text":"点赞榜",
+                "iconPath": "image/appreciate.png",
+                "selectedIconPath": "/image/appreciate_fill.png"
+
+
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

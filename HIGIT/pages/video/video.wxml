@@ -1,0 +1,17 @@
+<Hd/>
+
+<view class="works">
+  <view class="container"> 
+    <secTitle subTitle="视频"/>
+    <view class="wkMain">
+        <navigator class="box"  url="/pages/video_content/video_content" wx:for="{{dataList2}}">
+          <image class="pic" src="{{item.photo}}"></image>
+          <view class="ceng">
+            <view class="tit">{{item.title}}</view>
+            <view class="line"></view>
+            <view class="des">{{item.Eng}}</view>
+          </view>
+        </navigator>
+    </view>
+  </view>
+</view>

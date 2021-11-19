@@ -1,0 +1,4 @@
+<view class="secTitle">
+    <view class="txt">{{subTitle}}</view>
+</view>
+

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Hd":"/component/Hd/Hd",
+    "pubTitle":"/component/pubTitle/pubTitle"
+    
+  }
+}

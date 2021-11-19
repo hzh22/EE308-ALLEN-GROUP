@@ -1,0 +1,14 @@
+<view class = "header">
+  <view class="container hdCon">
+    <navigator  open-type="switchTab" url="/pages/index/index" class="logo">
+      <image mode="heightFix" src="/image/图标.png"></image>
+    </navigator>
+
+    <view class="shezhi">
+      <navigator url="/pages/setting/setting">
+        <button class="btn"></button>
+        <image  mode="heightFix" src="/image/settings.png"></image>
+      </navigator>
+    </view>
+  </view>
+</view>

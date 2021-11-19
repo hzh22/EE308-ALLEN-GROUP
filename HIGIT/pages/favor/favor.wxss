@@ -1,0 +1,10 @@
+
+.works{background: whitesmoke; padding: 90rpx 0 70rpx;}
+.dynamic{padding: 90rpx 0 70rpx;}
+.dyItem{display: flex;padding:15rpx 0;border: 1rpx dashed white;justify-content: space-between;}
+.dyItem .pic{flex:230rpx;height: 150rpx;}
+.dyItem .pic image{width: 100%;height: 100%;}
+.dyItem .txt{flex: 440rpx;display: flex; flex-direction: column;justify-content: space-between;}
+.dyItem .title{font-size: 34rpx;}
+.dyItem .info{ font-size: 26rpx;color: gray;}
+.dyItem .info text{font-size: 22rpx;}

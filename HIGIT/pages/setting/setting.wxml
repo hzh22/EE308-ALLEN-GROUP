@@ -1,0 +1,30 @@
+
+<text>设置</text>
+<button type="primary" bindtap="getData">我的收藏</button>
+<button type="primary" bindtap="getData">我的关注</button>
+------------------------------------------------------------------------------------
+<view>{{dataObj.title}}-{{dataObj.author}}</view>
+<button type="primary" bindtap="addData">插入一条数据</button>
+---------------------
+<form bindsubmit="btnSub">
+    <input name="title" placeholder="请输入标题"></input>
+    <input name="author" placeholder="请输入作者"></input>
+    <textarea name="content"placeholder="请输入内容"></textarea>
+    <button type="primary" form-type="submit">提交</button>
+    <button form-type="reset">重置</button>
+</form>
+
+-------------
+<button type="primary" bindtap="updateData">更新记录</button>
+----------------------
+
+<input placeholder="请输入id" bindinput="myinput"></input>
+<button type="primary" bindtap="delData">删除记录</button>
+-----------------------------------------------------------------------
+<button type="primary" bindtap="btnNum">查询个数</button>
+
+<view wx:for="{{dataArr}}" wx:key="index">{{index+1}}.{{item.title}}</view>
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+<button type="primary" bindtap="getData">条件查询</button>

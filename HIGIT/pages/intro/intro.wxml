@@ -1,0 +1,5 @@
+<Hd></Hd>
+
+<view>
+    <image class="banner" src="/image/salute.jpg" mode="widthFix"></image>
+</view>
