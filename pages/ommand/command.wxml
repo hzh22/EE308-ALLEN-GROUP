@@ -1,0 +1,8 @@
+<button type="primary" bindtap="getData"> 获取数据1</button>
+---------------
+<view wx:for="{{dataList1}}" wx:key="index">{{item.title}}-{{item.dianzan}}</view>
+
+-----------------------------
+<button type="primary" bindtap="getData"> 获取数据2</button>
+---------------
+<view wx:for="{{dataList2}}" wx:key="index">{{item.title}}-{{item.dianzan}}</view>

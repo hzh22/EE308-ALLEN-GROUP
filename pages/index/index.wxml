@@ -1,0 +1,73 @@
+<!-- 顶部 -->
+<Hd></Hd>
+
+<!-- 滚动导航栏 -->
+<view class="banner">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular autoplay interval="2000">
+
+    <swiper-item><image src="/image/salute.jpg"></image></swiper-item>
+    <swiper-item><image src="/image/salute.jpg"></image></swiper-item>
+    <swiper-item><image src="/image/salute.jpg"></image></swiper-item>
+    <swiper-item><image src="/image/salute.jpg"></image></swiper-item>
+    <swiper-item><image src="/image/salute.jpg"></image></swiper-item>
+    <swiper-item><image src="/image/salute.jpg"></image></swiper-item>
+    <swiper-item><image src="/image/salute.jpg"></image></swiper-item>
+    <swiper-item><image src="/image/salute.jpg"></image></swiper-item>
+  </swiper>
+</view>
+<!-- 视频  文章  简介  -->
+<view class="major">
+  <view class="majorCon">
+    <navigator class="box" url="/pages/video/video">
+      <image class="pic"src ="/image/周蓓.jpg"></image>
+      <view class="txt">视频</view>
+    </navigator>
+
+    <navigator class="box" url="/pages/article/article">
+      <image class="pic"src ="/image/周蓓.jpg"></image>
+      <view class="txt">文章</view>
+    </navigator>
+
+    <navigator class="box" url="/pages/intro/intro">
+      <image class="pic"src ="/image/周蓓.jpg"></image>
+      <view class="txt">简介</view>
+    </navigator>
+  </view>
+</view>
+
+<!-- 视频推荐 -->
+<view class="works">
+  <view class="container"> 
+    <pubTitle subTitle="视频推荐" myUrl="/pages/video/video"/>
+    <view class="wkMain">
+        <navigator class="box"  url="/pages/video_content/video_content" wx:for="{{dataList2}}">
+          <image class="pic" src="{{item.photo}}"></image>
+          <view class="ceng">
+            <view class="tit">{{item.title}}</view>
+            <view class="line"></view>
+            <view class="des">{{item.Eng}}</view>
+          </view>
+        </navigator>
+    </view>
+  </view>
+</view>
+
+<!-- 文章推荐 -->
+<view class="dynamic">
+  <view class="container">
+    <pubTitle subTitle="文章推荐" myUrl="/pages/article/article"/>
+    <view class="dyMain">
+      <navigator class="dyItem" url="/pages/article_content/article_content" wx:for="{{datalist}}">
+        <view class="pic">
+          <image src="/image/showmaker.jpg"></image>
+        </view>
+        <view class="txt">
+          <view class="title">{{item.title}}</view>
+          <view class="info">
+            <view class="name">{{item.author}}</view>
+            <view class="time"></view>时间: {{item.time}} </view>
+          </view>
+      </navigator>
+    </view>  
+  </view>
+</view>

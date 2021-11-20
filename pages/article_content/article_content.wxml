@@ -1,0 +1,20 @@
+<Hd/>
+
+<view class="content">
+  <view class="title" wx:for="{{datalist1}}">{{item.title}}</view>
+  <view class="line"></view>
+  <view class="content" wx:for="{{datalist1}}">{{item.content}} </view>
+</view>
+<view class="major">
+    <!--收藏  -->
+  <view class="shoucang">
+        <view><image  class="pic" src="{{img_shoucang}}" bindtap="clickMe1"></image></view>
+        <view><text class="txt">收藏</text></view>
+  </view>
+    <!-- 点赞 -->
+    <view class="dianzan">
+        <view><image  class="pic" src="{{img_dianzan}}" bindtap="clickMe2"></image></view>
+        <view><text class="txt">点赞</text></view>
+  </view>
+
+</view>

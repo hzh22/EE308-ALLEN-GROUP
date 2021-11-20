@@ -1,0 +1,12 @@
+.content .title{font-size: 80rpx;font-family:"HARLOWSI"}
+.content .line{width:500rpx; height: 10rpx;background: black;margin-left: 10rpx 0 20rpx;}
+
+
+
+.major{display: flex; flex-wrap: nowrap;justify-content:  space-between; align-items: center; height: 100%;margin-top: 1000rpx; padding:0 50rpx;}
+.major .shoucang{ text-align: center; width: 100rpx;display: inline-block;}
+.major .pic{ width: 40rpx;height: 40rpx;}
+.major .txt{ font-size: 26rpx;}
+.major .dianzan{ text-align: center; width: 100rpx;display: inline-block;}
+.major .pic{ width: 40rpx;height: 40rpx;}
+.major .txt{ font-size: 26rpx;}

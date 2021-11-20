@@ -1,0 +1,19 @@
+<Hd></Hd>
+
+<view class="dynamic">
+  <view class="container">
+    <pubTitle subTitle="收藏榜" myUrl="/pages/article/article"></pubTitle>
+    <view class="dyMain">
+      <navigator class="dyItem" url="/pages/article_content/article_content" wx:for="{{5}}">
+        <view class="pic">
+          <image src="/image/showmaker.jpg"></image>
+        </view>
+        <view class="txt">
+          <view class="title">被指到的人写一天代码</view>
+          <view class="info">作者：Luv <text space="ensp">   -   </text>时间：2021/11/11</view>
+        </view>
+      </navigator>
+    </view>  
+  </view>
+</view>
+

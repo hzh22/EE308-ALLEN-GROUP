@@ -1,0 +1,22 @@
+<Hd/>
+
+<view class="dynamic">
+  <view class="container">
+    <secTitle subTitle="文章"/>
+    <view class="dyMain">
+      <navigator class="dyItem" url="/pages/article_content/article_content" wx:for="{{dataList1}}">
+        <view class="pic">
+          <image src="/image/showmaker.jpg"></image>
+        </view>
+        <view class="txt">
+          <view class="title">{{item.title}}</view>
+          <view class="info">
+            <view class="name">{{item.author}}</view>
+            <view class="time"></view>时间: {{item.time}} </view>
+          </view>
+      </navigator>
+    </view>  
+  </view>
+</view>
+
+
