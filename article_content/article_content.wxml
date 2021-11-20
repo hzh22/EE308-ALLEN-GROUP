@@ -1,0 +1,23 @@
+<Hd/>
+<view>文章ID：{{datalist1}}</view>
+<view>author：{{author}}</view>
+<view class="line"></view>
+<view class="content">
+  <view class="title">title: {{title}}</view>
+  <view class="line"></view>
+  <view class="content" >content: {{content}} </view>
+</view>
+<view class="link" >link: {{link}} </view>
+
+
+<view class="major">
+    <!--收藏  -->
+  <view class="shoucang">
+        <view><image  class="pic" src="{{img_shoucang}}" bindtap="clickMe1"></image></view>
+        <view><text class="txt">收藏</text></view>
+  </view>
+    <view class="dianzan">
+        <view><image  class="pic" src="{{img_dianzan}}" bindtap="clickMe2"></image></view>
+        <view><text class="txt">点赞</text></view>
+  </view>
+</view>
